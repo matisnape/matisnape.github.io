@@ -4,80 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anks - Personal Page</title>
-    <style>
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-          sans-serif;
-        line-height: 1.6;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 2rem;
-        color: #333;
-      }
-
-      .container {
-        display: flex;
-        gap: 4rem;
-      }
-
-      .main-content {
-        flex: 3;
-      }
-
-      .now-section {
-        flex: 2;
-      }
-
-      .avatar {
-        width: 152px;
-        height: 152px;
-        border-radius: 50%;
-        object-fit: cover;
-        float: right;
-        margin: 0 0 2rem 2rem;
-      }
-
-      a {
-        color: #0066cc;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-      h1 {
-        margin-bottom: 1.5rem;
-      }
-      p {
-        margin-bottom: 1rem;
-      }
-
-      @media (max-width: 768px) {
-        .container {
-          flex-direction: column;
-          gap: 2rem;
-        }
-
-        body {
-          padding: 1rem;
-        }
-
-        .avatar {
-          width: 120px;
-          height: 120px;
-          margin: 0 0 1rem 1rem;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
     <div class="container">
       <div class="main-content">
         <h1>Hi, I'm Anks</h1>
-        <img
-          src="https://media.licdn.com/dms/image/v2/D4D03AQGtH2-9_IGwkQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1701723241969?e=1740614400&v=beta&t=pn4Dha4MVww0ESoSdJjkfR51bG4AB8u914tEIP8erQ4"
-          alt="Anks"
-          class="avatar"
-        />
+        <img src="assets/avatar_400.jpeg" alt="Anks" class="avatar" />
 
         <p>
           I'm Software Developer that evolved from Quality Engineer with total
@@ -98,7 +31,8 @@
           my job to a full time backend developer. I've also dabbled in photography, doing some
           <a href="https://www.facebook.com/anksfoto/" target="_blank">wedding</a> and
           <a href="https://www.flickr.com/photos/anksfoto/" target="_blank">amateur</a> gigs along
-          the way.
+          the way. <a href="https://www.dareit.io/" target="_blank">Mentoring people</a> gives me
+          fuel for existence.
         </p>
 
         <p>
@@ -143,12 +77,15 @@
           <li>I've tried cross-country skiing and didn't like it :P</li>
           <li>I've signed up to a library and read over 80 books already</li>
         </ul>
-        <p>
-          This page is inspired by
-          <a href="https://wearingmanyhats.com/now/" target="_blank">Ania Warzecha' Now Page</a>,
-          which will lead you to another chain of "inspired by".
-        </p>
       </div>
     </div>
+
+    <footer>
+      <p>
+        This page is inspired by
+        <a href="https://wearingmanyhats.com/now/" target="_blank">Ania Warzecha' Now Page</a>,
+        which will lead you to another chain of "inspired by".
+      </p>
+    </footer>
   </body>
 </html>
